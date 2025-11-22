@@ -1,4 +1,4 @@
-#!/home/zain/ALX/ALX_env/bin/python
+#!/usr/bin/env python3
 
 import unittest
 from parameterized import parameterized
