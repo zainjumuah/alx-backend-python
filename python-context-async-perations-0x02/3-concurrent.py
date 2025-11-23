@@ -21,7 +21,7 @@ async def async_fetch_older_users():
 
 
 async def fetch_concurrently():
-    # Run both tasks concurrently
+    # Run both of the tasks concurrently
     users, older_users = await asyncio.gather(
         async_fetch_users(),
         async_fetch_older_users()
